@@ -1,0 +1,28 @@
+{
+  "name": "lab2.3-deploy-hardhat",
+  "version": "1.0.0",
+  "description": "Dans ce lab, vous allez apprendre à déployer un smart contract de paiement instantané (InstantPaymentHub) sur le testnet Sepolia en utilisant Hardhat et Ethers.js. Vous allez également interagir avec le contrat via Ethers.js pour effectuer des paiements et valider son fonctionnement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oumeima-IbnElfekih/lab2.3-deploy-hardhat.git"
+  },
+  "author": "IBN ELFEKIH Oumeima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oumeima-IbnElfekih/lab2.3-deploy-hardhat/issues"
+  },
+  "homepage": "https://github.com/Oumeima-IbnElfekih/lab2.3-deploy-hardhat#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
