@@ -23,6 +23,8 @@
     "hardhat": "^2.23.0"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.5.0",
+    "web3": "^4.16.0"
   }
 }
